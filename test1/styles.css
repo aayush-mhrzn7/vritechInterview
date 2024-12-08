@@ -37,7 +37,7 @@ body {
   background-size: cover;
   width: 500px;
   height: 250px;
-  opacity: 0.6;
+  opacity: 0.3;
   background: rgba(255, 255, 255, 0.493);
   border-radius: 40px;
   backdrop-filter: blur(2px);
@@ -106,4 +106,40 @@ body {
   padding: 10px;
   border-radius: 8px;
   font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .swiper {
+    height: 600px;
+  }
+  .swiper-slide {
+    width: 300px;
+    height: 250px;
+  }
+  .box {
+    height: 300px;
+    width: 300px;
+  }
+  .circle {
+    top: 150px;
+    height: 20px;
+    width: 20px;
+  }
+  .rectangle {
+    top: 30px;
+    height: 100px;
+  }
+  .rectangle3 {
+    top: 200px;
+    height: 50px;
+  }
+  .rectangle2 {
+    top: 150px;
+    left: 30px;
+    width: 80%;
+  }
+  .text {
+    font-size: 14px;
+    padding: 8px;
+  }
 }
