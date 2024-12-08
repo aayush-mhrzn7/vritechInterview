@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  overflow: hidden;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(197, 203, 63, 1) 0%,
+    rgba(188, 143, 102, 1) 0%,
+    rgba(191, 165, 88, 1) 0%,
+    rgba(190, 157, 93, 1) 0%,
+    rgba(187, 135, 107, 1) 12%,
+    rgba(175, 50, 163, 1) 100%
+  );
+}
+
+.swiper {
+  width: 100%;
+  max-width: 1200px;
+  height: 900px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 250px;
+  opacity: 0.6;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 40px;
+  backdrop-filter: blur(2px);
+  transition: opacity 0.6s, transform 0.3s;
+  padding: 20px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.404);
+}
+
+.swiper-slide-active {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.box {
+  position: relative;
+  height: 400px;
+
+  width: 500px;
+}
+.circle {
+  position: absolute;
+  top: 220px;
+  left: 0px;
+  height: 30px;
+  width: 30px;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 100%;
+  backdrop-filter: blur(2px);
+}
+.rectangle {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  height: 150px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 20px;
+  backdrop-filter: blur(2px);
+}
+.rectangle3 {
+  position: absolute;
+  top: 270px;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 20px;
+  backdrop-filter: blur(2px);
+}
+.rectangle2 {
+  position: absolute;
+  top: 220px;
+  left: 40px;
+  height: 30px;
+  width: 92%;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 20px;
+  backdrop-filter: blur(2px);
+}
