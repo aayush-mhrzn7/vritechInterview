@@ -38,46 +38,6 @@
               <div class="rectangle3"></div>
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="box">
-              <div class="rectangle"></div>
-              <div class="circle"></div>
-              <div class="rectangle2"></div>
-              <div class="rectangle3"></div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="box">
-              <div class="rectangle"></div>
-              <div class="circle"></div>
-              <div class="rectangle2"></div>
-              <div class="rectangle3"></div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="box">
-              <div class="rectangle"></div>
-              <div class="circle"></div>
-              <div class="rectangle2"></div>
-              <div class="rectangle3"></div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="box">
-              <div class="rectangle"></div>
-              <div class="circle"></div>
-              <div class="rectangle2"></div>
-              <div class="rectangle3"></div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="box">
-              <div class="rectangle"></div>
-              <div class="circle"></div>
-              <div class="rectangle2"></div>
-              <div class="rectangle3"></div>
-            </div>
-          </div>
         </div>
       </div>
       <div class="text">Grab the Box to Initiate the Slider</div>
@@ -87,11 +47,13 @@
     <script>
       const swiper = new Swiper(".swiper", {
         effect: "coverflow",
+        initialSide: 1,
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: 2,
         direction: "vertical",
         slideShadows: true,
+        loop: true,
         coverflowEffect: {
           rotate: 0,
           stretch: 100,
