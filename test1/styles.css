@@ -38,7 +38,7 @@ body {
   width: 500px;
   height: 250px;
   opacity: 0.6;
-  background: rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.493);
   border-radius: 40px;
   backdrop-filter: blur(2px);
   transition: opacity 0.6s, transform 0.3s;
