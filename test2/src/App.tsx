@@ -4,8 +4,9 @@
 //DONE: create dropable Zones done
 //DONE:create Draggables
 //DONE: map the respective zone in the draggable to the zones of dropzone
-// create a ref for the todo task and create a input box to write todo default should always be todo and later the user  will cahnge
-
+//DONE create a ref for the todo task and create a input box to write todo default should always be todo and later the user  will cahnge
+//FIXED:Event Bublbing
+//DONE: MODAL Creation for search and filter
 import { useEffect, useRef, useState } from "react";
 import Droppable from "./components/Droppable";
 import { DndContext } from "@dnd-kit/core";
